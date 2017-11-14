@@ -1,0 +1,10 @@
+{% set current_url = request.environ.CKAN_CURRENT_URL %}
+{% set current_lang = request.environ.CKAN_LANG %}
+
+{# customized : show only English and Chinese and put on the top of page #}
+<li><a href="{% url_for current_url, locale='zh_TW' %}">
+  {{ _('中文(臺灣)') }}
+</a></li>
+<li><a href="{% url_for current_url, locale='en' %}">
+  {{ _('English') }}
+</a></li>
