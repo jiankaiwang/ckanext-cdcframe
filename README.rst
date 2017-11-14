@@ -37,7 +37,7 @@ To install ckanext-cdcframe:
 
      cd /usr/lib/ckan/default/src/ckanext-cdcframe
 
-     pip install ckanext-cdcframe
+     pip install .
 
 4. Add ``cdcframe`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at
