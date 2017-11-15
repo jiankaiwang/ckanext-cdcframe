@@ -11,6 +11,13 @@ ckanext-cdcframe
 
 The ckan extension conserves the webpage frame for Taiwan CDC open data portal.
 
+* the whole site css, javascript
+* the SyntaxHighlighter project resource
+* the navigation bar and homepage image
+.. image:: image/cdc-homepage.png
+* the footer section
+.. image:: image/cdc-footer.png
+
 ------------
 Requirements
 ------------
