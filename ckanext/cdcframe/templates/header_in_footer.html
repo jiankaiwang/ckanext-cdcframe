@@ -1,0 +1,28 @@
+{% block header_account %}
+  <header class="account-masthead" style="background: none;">
+    <div class="container">
+      {% block header_account_container_content %}
+        {% if c.userobj %}
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              {# cdc #}
+              {% snippet "snippets/customized_language_selector.html" %}
+            </ul>
+          </nav>
+        {% else %}
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              {# cdc #}
+              {% block header_account_notlogged %}
+              {% snippet "snippets/customized_language_selector.html" %}
+              {% if h.check_access('user_create') %}
+                <li>{% link_for _('Register'), controller='user', action='register', class_='sub' %}</li>
+              {% endif %}
+              {% endblock %}
+            </ul>
+          </nav>
+        {% endif %}
+      {% endblock %}
+    </div>
+  </header>
+{% endblock %}

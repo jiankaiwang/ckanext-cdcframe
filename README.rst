@@ -11,6 +11,13 @@ ckanext-cdcframe
 
 The ckan extension conserves the webpage frame for Taiwan CDC open data portal.
 
+* the whole site css, javascript
+* the SyntaxHighlighter project resource
+* the navigation bar and homepage image
+.. image:: image/cdc-homepage.png
+* the footer section
+.. image:: image/cdc-footer.png
+
 ------------
 Requirements
 ------------
@@ -31,13 +38,13 @@ To install ckanext-cdcframe:
 
      cd /usr/lib/ckan/default/src/
 
-     https://github.com/jiankaiwang/ckanext-cdcframe.git
+     git clone https://github.com/jiankaiwang/ckanext-cdcframe.git
 
 3. Install the ckanext-cdcframe Python package into your virtual environment::
 
      cd /usr/lib/ckan/default/src/ckanext-cdcframe
 
-     pip install ckanext-cdcframe
+     pip install .
 
 4. Add ``cdcframe`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at

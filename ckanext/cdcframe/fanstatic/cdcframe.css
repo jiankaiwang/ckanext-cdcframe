@@ -1,0 +1,472 @@
+/* 
+  path : /
+  desc : general 
+*/
+
+body {
+  background: none;
+}
+
+.general-font-family, * {
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Lucida Grande', 'Lucida Sans Unicode', 'Arial', 'Helvetica', 'sans-serif';
+}
+.general-font-1 {
+  font-size: 16px;
+}
+
+/*
+  path : /
+  desc : homepage
+*/
+
+.hp-category {
+  margin-left: 0px; 
+  margin-right: 13px; 
+  margin-bottom: 13px;  
+}
+
+.hp-footer-bg {
+  background-color: rgba(20,20,20,0.8);
+}
+
+.hp-header-bg {
+  background-color: rgba(220,220,220,0.5);
+}
+
+.hp-category-margin {
+  margin-left: 6px;
+}
+
+.general-font-family {
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Lucida Grande', 'Lucida Sans Unicode', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.homepage-bgimg {
+  background: rgba(255,255,255,0) url("/nasa_taiwan_black.jpg");
+  width: 100%;
+  clear: both;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.homepage-title {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  font-size: 34px;
+  text-align: center;
+  margin-top: 170px;
+}
+.homepage-subtitle {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+.section-topic {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.homepage-data-section {
+  background-color: rgba(220,220,220,1);
+}
+
+/* 
+  path : /
+  desc : override main.min.css 
+*/
+
+.box {
+  /* override main.min.css */
+  margin-bottom: 20px;
+}
+.desktop-search {
+  /* override main.min.css */
+  display: none;
+}
+
+/*
+  path : /
+  desc : override green.min.css
+*/
+.module-heading {
+  /* override green.min.css */
+  background-color: rgba(255,255,255,1);
+}
+
+.tag-customized {
+  /* override green.min.css */
+  display: inline-block;
+  margin-bottom: 4px;
+  color: rgba(20,20,20,0.8);
+  background-color: rgba(255,255,255,1);
+  padding: 1px 10px;
+  border: 1px solid rgba(50,50,50,0.8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 100px;
+  /* border-radius: 100px; */
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+  padding: 7px;
+}
+
+/* 
+  path : /
+  desc : homepage
+ */
+
+.container-1 {
+  min-width: 310px;
+  padding: 2px;
+  max-width: 100%;
+  height: 368px;
+  line-height: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(160,160,160,1);
+  border-style: outset;
+  background-color: rgba(255,255,255,1);
+}
+.container-2 {
+  min-width: 310px;
+  padding: 2px;
+  max-width: 98%;
+  height: 368px;
+  line-height: 100%;
+  margin: 0 auto;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  border: 1px solid rgba(160,160,160,1);
+  border-style: outset;
+  background-color: rgba(255,255,255,1);
+}
+.container-3 {
+  /* path: / */
+  /* desc: dengue 309 village */
+  min-width: 200px;
+  padding: 2px;
+  max-width: 100%;
+  line-height: 100%;
+  margin: 0 auto;
+  /*margin-left: 2%;
+  margin-bottom: 20px;*/
+  border: 1px solid rgba(160,160,160,1);
+  border-style: outset;
+  background-color: rgba(255,255,255,1);
+}
+.container-4 {
+  /* path: / */
+  /* desc: up right field */
+  min-width: 220px;
+  padding: 2px;
+  max-width: 100%;
+  height: 260px;
+  line-height: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(160,160,160,1);
+  border-style: outset;
+  background-color: rgba(255,255,255,1);
+}
+
+.container-title {
+  text-align: left;
+  clear: both;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.container-title A:link {
+  color: rgba(0,0,255,1);
+  text-decoration: none;
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Lucida Grande', 'Lucida Sans Unicode', 'Arial', 'Helvetica', 'sans-serif';
+}
+.container-title A:visited {
+  text-decoration: none;
+  color: rgba(0,0,255,1);
+  font-weight: bold;
+}
+.container-title A:active {
+  text-decoration: none;
+}
+.container-title A:hover {
+  color: rgba(255,0,0,1);
+}
+.container-sepLine {
+  width: 100%;
+  clear: both;
+  border: 1px rgba(160,160,160,0.2);
+  border-top-style: solid;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+.container-list{
+  width: 100%;
+  color: rgba(85,128,170,1);
+  clear: both;
+  padding: 2px;
+}
+.container-list-body {
+  width: 95%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+}
+.container-list-body li {
+  display: inline-block;
+  text-align: right;
+  padding-left: 10px;
+}
+.container-list-item, 
+#dengueLinechartMonth {
+  font-size: 12px;
+  color: rgba(0,0,0,1);
+  font-weight: normal;
+}
+.container-list-value {
+  font-size: 16px;
+  font-weight: bold;
+}
+.container-subvalue {
+  font-size: 40px;
+  width: 95%;
+  text-align: right;
+  color: rgba(85,128,170,1);
+  margin-bottom: 30px;
+}
+.container-subtitle {
+  font-size: 12px;
+  width: 95%;
+  text-align: right;
+}
+#dengueFiveYear, #dengueYearTtl {
+  min-width: 310px;
+  height: 230px;
+  max-width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+#dengueMap {
+  overflow: hidden;
+}
+.dengueMap-body {
+  width: 162%;
+  height: 250%;
+  overflow: hidden;
+  margin-left: -70px;
+}
+.iframe-container {
+  frameborder: 0px;
+  width: 100%;
+  height: 290px;
+}
+.iframe-container-ns1 {
+  frameborder: 0px;
+  width: 100%;
+  height: 460px;
+  overflow-y: hidden;
+}
+#showDengueCnt {
+  overflow-y : hidden;
+}
+
+/*
+* developer.html
+*/
+.tab-content-2 > .tab-pane {
+  display: none;
+}
+.tab-content-2 > .active {
+  display: block;
+}
+#developerContainer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#developerTab li {
+  width: 20%;
+  text-align: center;
+}
+
+/* upload to NDC */
+.sumbit-form {
+  display: inline-block;
+  margin: 0px;
+}
+
+/* remove the list style */
+.dataset-item:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 980px) {
+ .general-font-1 {
+   font-size: 12px; 
+ } 
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* override main.min.css */
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #eeeeee;
+  }
+  .row {
+    /* override main.min.css */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+  .section-topic {
+    width: auto;
+  }
+  .homepage-bgimg .row {
+    /* override main.min.css */
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  .desktop-search {
+    /* override main.min.css */
+    display: block;
+  }
+  .homepage-title {
+    /* override main.min.css */
+    margin-top: 280px;
+    font-size: 26px;
+  }
+  .homepage-subtitle {
+    /* override main.min.css */
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .homepage-bgimg .span6.col1 {
+    /* override main.min.css */
+    display: none;
+  }
+  .homepage-bgimg .row.row1 .tags {
+    /* override main.min.css */
+    display: none;
+  }
+  .homepage .module-search {
+    /* override main.min.css */
+    padding: 0px;
+  }
+  .homepage .module-search .heading {
+    /* override main.min.css */
+    display: none;
+  }
+  .homepage .module-search.box {
+    /* override main.min.css */
+    background-color: rgba(255,255,255,0);
+    border: 0px;
+  }
+  .homepage .module-search .module-content {
+    /* override main.min.css */
+    background-color: rgba(255,255,255,0);
+  }
+  .container-2 {
+    max-width: 100%;
+    margin: 0px;
+  }
+  .account-masthead {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navbar.navbar-static-top.masthead {
+    /* override main.min.css */
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .homepage-title { 
+    font-size: 22px;
+  }
+  .homepage-subtitle {
+    font-size: 12px;
+  }
+  .hp-category-mb {
+    width: 92%;
+    margin-left: 3%;
+  }
+  .hp-category-margin-mb {
+    margin-left: 0px;
+  }
+  .container-1 {
+    margin-bottom: 20px;
+  }
+  .mb-hg-block-margin {
+    margin-bottom: 10px;
+  }
+  .general-font-1 {
+   font-size: 14px;
+  }
+  
+  /* 
+    path : /
+    desc : dengue info 
+  */
+  .container-3 {
+    width : 98%;
+    max-width: 98%;
+    margin-bottom: 10px;
+  }  
+
+  .iframe-container-ns1 {
+    frameborder: 0px;
+    width: 100%;
+    height: 460px;
+    overflow-y: hidden;
+  }
+
+  /*
+  * developer.html
+  */
+  #developerContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #developerTab li {
+    width: 100%;
+    text-align: center;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+{% ckan_extends %}
+
+{% block styles %}
+  {{ super() }}
+
+  {# Import example_theme.css using Fanstatic.
+     'example_theme/' is the name that the example_theme/fanstatic directory
+     was registered with when the toolkit.add_resource() function was called.
+     'example_theme.css' is the path to the CSS file, relative to the root of
+     the fanstatic directory. #}
+  {% resource 'cdcframe/scripts/shAll.js' %}
+  {% resource 'cdcframe/styles/shCoreDefault.css' %}
+  {% resource 'cdcframe/styles/shThemeDefault.css' %}
+  {% resource 'cdcframe/cdcframe.js' %}
+  {% resource 'cdcframe/cdcframe.css' %}
+{% endblock %}
