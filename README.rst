@@ -38,7 +38,7 @@ To install ckanext-cdcframe:
 
      cd /usr/lib/ckan/default/src/
 
-     https://github.com/jiankaiwang/ckanext-cdcframe.git
+     git clone https://github.com/jiankaiwang/ckanext-cdcframe.git
 
 3. Install the ckanext-cdcframe Python package into your virtual environment::
 
